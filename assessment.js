@@ -2,7 +2,7 @@
 
 // CODE HERE
 var me = {
-  firstName: "Ethan",
+  firstname: "Ethan",
   age: 27,
   state: "Utah"
 }
@@ -44,12 +44,12 @@ var myArrayCopy = myArray;
 //DON'T TOUCH THE CODE BELOW
 var myNumbers = [333, 1, 4, 5, 511, 34, 88, 77, 222];
 //DON'T TOUCH THE CODE ABOVE
-function evensOnly(nums) {
+function evensOnly() {
   // CODE HERE
   var evensArray = [];
-  for(i = 0; i < nums.length; i++){
-    if (nums[i] % 2 === 0){
-      evensArray.push(nums[i]);
+  for(i = 0; i < myNumbers.length; i++){
+    if (myNumbers[i] % 2 === 0){
+      evensArray.push(myNumbers[i]);
     }
   }
   return evensArray;
